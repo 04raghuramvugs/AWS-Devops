@@ -34,4 +34,4 @@ jobs:
           aws-region: eu-north-1   # change to your region
 
       - name: Sync files to S3
-        run: aws s3 sync dist/browser s3://amzn-s3-second-app --delete
+        run: aws s3 sync project-aws-devops/dist/browser s3://amzn-s3-second-app --delete
